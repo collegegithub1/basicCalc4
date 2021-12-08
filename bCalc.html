@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+
+        <title>Calculator with only 4 integer functions</title>
+        <link rel="stylesheet" href="style.css" >
+        <script src="script.js"></script>
+        
+    </head>
+    <body>
+
+        <div class="output_screen">
+            <p id="output">0</p>
+        </div>
+
+        <div class="first">
+            <button id="1r-1" onclick="btnclear()"style="width: 145px">C</button>
+            <button id="1r-2" value="/" onclick="display('/')">/</button>
+            <button id="1r-3" value="X" onclick="display('*')">X</button>
+            <button id="2r-4" value="-" onclick="display('-')">-</button>
+            <button id="3r-4" value="+" onclick="display('+')">+</button>
+        </div>
+
+        <div class="second">
+            <button id="2r-1" value="4" onclick="display('7')">7</button>
+            <button id="2r-2" value="8" onclick="display('8')">8</button>
+            <button id="2r-3" value="9" onclick="display('9')">9</button>
+            
+        </div>
+
+        <div class="third">
+            <button id="3r-1" value="4" onclick="display('4')">4</button>
+            <button id="3r-2" value="5" onclick="display('5')">5</button>
+            <button id="3r-3" value="6" onclick="display('6')">6</button>
+            
+        </div>
+
+        <div class="fourth">
+            <button id="4r-1" value="1" onclick="display('1')">1</button>
+            <button id="4r-2" value="2" onclick="display('2')">2</button>
+            <button id="4r-3" value="3" onclick="display('3')">3</button>
+        </div>
+
+        <div class="fifth">
+            <button id="5r-1" style="width: 145px;" value="0" onclick="display('0')">0</button>
+            <button id="5r-2" value="." onclick="display('.')">.</button>
+            <button id="5r-3" value="=" onclick="solution()">=</button>
+        </div>
+
+    </body>
+</html>
